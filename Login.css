@@ -1,0 +1,45 @@
+.container{
+    background-image: url(image\ for\ project/9.image.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-position: 1px 800px;
+    background-size: cover;
+
+}
+.box{
+    min-height: 50vh;
+    border-radius: 20px;
+    border-color: red;
+    border: 3px solid red;
+    padding: 30px;
+    
+}
+.box0 img{
+    border-radius: 50px;
+}
+.box0 h1{
+    color: white;
+}
+.box1 input{
+    font-size: 15px;
+    height: 30px;
+    margin: 10px;
+    width: 100%;
+    
+}
+.box2{
+    padding: 12px;
+}
+.box2 input{
+    font-size: 15px;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.box2 a{
+    color: white;
+    text-decoration: none;
+
+}

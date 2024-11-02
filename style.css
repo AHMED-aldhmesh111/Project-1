@@ -1,0 +1,135 @@
+header {
+    background-color: rgb(42, 7, 99);
+    padding: 10px;
+    
+
+
+
+}
+
+header img {
+    border-radius: 40px;
+
+
+
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+header nav a:hover {
+
+    border-radius: 20px;
+    text-decoration: underline ;
+    
+
+}
+
+header h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(image\ for\ project/10.image.jpg);
+    background-position: 1px 800px;
+    background-size: 100% 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.product {
+    color: rgb(228, 253, 2);
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 12px;
+    top: 50px;
+}
+.product button{
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(228, 253, 2);
+    background-color: transparent;
+    border-color: rgb(228, 253, 2);
+}
+.product1{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(image\ for\ project/5.image.jpg);
+    background-size:cover;    
+    background-attachment: fixed;      
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    gap: 40px;
+    padding: 15px;
+
+
+    
+
+
+}
+.products h3{
+    color: rgb(255, 0, 255);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.products button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin-top: 12px;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+.products img{
+    border-radius: 15px;
+    border-color:#000000;
+
+}
+.card{
+    border-radius: 12px;
+    border: 6px solid rgb(209, 1, 236);
+    padding: 15px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 15px;
+    border: 2px solid white;
+
+}
+footer img{
+    border-radius: 150px;
+}
+ul{
+    color: white;
+    padding: 15px;
+    font-size: 35px;
+    gap: 15px;
+    display:block ;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+}
+footer h4{
+    font-size: 36px;
+}
